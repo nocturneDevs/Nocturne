@@ -1,1 +1,3 @@
-<?php echo "Hello World! <br> - Love, Nocturne" ?>
+<?php get_header(); ?>
+
+<?php get_footer(); ?>
