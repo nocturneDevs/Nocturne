@@ -22,6 +22,8 @@
 <meta charset="<?php bloginfo( 'charset' ); ?>" />
 <meta name="viewport" content="width=device-width" />
 
+<?php echo '<link rel="stylesheet" type="text/css" href="'.get_template_directory().'/style.css">' ?>
+
 <!-- FONTS --><!-- TODO: Is this the best way to do this? --> 
 
 <title><?php wp_title( '|', true, 'right' ); ?></title>
@@ -35,6 +37,3 @@
 </head>
 
 <body>
-	<h1>Nocturne</h1>
-	<h2>Coffee, Cola, Code</h2>
-</body>

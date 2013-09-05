@@ -1,1 +1,2 @@
-<?php echo "Okthankyoubye." ?>
+<?php echo 'Okthankyoubye.' ?>
+</body>
