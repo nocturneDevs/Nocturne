@@ -102,6 +102,9 @@ video {
 .nobr {
   white-space: nowrap;
 }
+html {
+  margin: 0;
+}
 body {
   background: #25252f;
   color: #dadad0;
@@ -113,17 +116,65 @@ body div#page {
   max-width: 960px;
   font-family: "Mako", sans-serif;
 }
+body div#page:before,
+body div#page:after {
+  content: " ";
+  display: table;
+}
+body div#page:after {
+  clear: both;
+}
+body div#page:before,
+body div#page:after {
+  content: " ";
+  display: table;
+}
+body div#page:after {
+  clear: both;
+}
+body div#page:before,
+body div#page:after {
+  content: " ";
+  display: table;
+}
+body div#page:after {
+  clear: both;
+}
 body div#page div#nocturneWrapper {
   display: inline;
   float: left;
   width: 97.91666666666666%;
   margin: 0 1.0416666666666665%;
-  margin-top: 48px;
-  margin-bottom: 24px;
+  margin-top: 160px;
+  margin-bottom: 160px;
+}
+body div#page div#nocturneWrapper:before,
+body div#page div#nocturneWrapper:after {
+  content: " ";
+  display: table;
+}
+body div#page div#nocturneWrapper:after {
+  clear: both;
+}
+body div#page div#nocturneWrapper:before,
+body div#page div#nocturneWrapper:after {
+  content: " ";
+  display: table;
+}
+body div#page div#nocturneWrapper:after {
+  clear: both;
+}
+body div#page div#nocturneWrapper:before,
+body div#page div#nocturneWrapper:after {
+  content: " ";
+  display: table;
+}
+body div#page div#nocturneWrapper:after {
+  clear: both;
 }
 body div#page div#nocturneWrapper h1 {
   font-family: "Oxygen", "Helvetica", sans-serif;
-  font-size: 64px;
+  font-size: 72px;
   text-align: center;
 }
 body div#page div#nocturneWrapper h3 {
@@ -133,27 +184,56 @@ body div#page div#nocturneWrapper h3 {
 body div#page div#nocturneWrapper p {
   margin-top: 48px;
   font-size: 24px;
+  line-height: 36px;
   text-align: justify;
 }
-body div#page div.bioColumn {
+body div#page div#bioWrapper {
+  width: 100%;
+  margin-top: 80px;
+  margin-bottom: 80px;
+}
+body div#page div#bioWrapper:before,
+body div#page div#bioWrapper:after {
+  content: " ";
+  display: table;
+}
+body div#page div#bioWrapper:after {
+  clear: both;
+}
+body div#page div#bioWrapper:before,
+body div#page div#bioWrapper:after {
+  content: " ";
+  display: table;
+}
+body div#page div#bioWrapper:after {
+  clear: both;
+}
+body div#page div#bioWrapper:before,
+body div#page div#bioWrapper:after {
+  content: " ";
+  display: table;
+}
+body div#page div#bioWrapper:after {
+  clear: both;
+}
+body div#page div#bioWrapper div.bioColumn {
   display: inline;
   float: left;
   width: 97.91666666666666%;
   margin: 0 1.0416666666666665%;
-  margin-top: 24px;
-  margin-bottom: 24px;
 }
-body div#page div.bioColumn h2 {
+body div#page div#bioWrapper div.bioColumn h2 {
   font-family: "Oxygen", "Helvetica", sans-serif;
   font-weight: 400;
   font-size: 36px;
   margin-bottom: 12px;
 }
-body div#page div.bioColumn p {
+body div#page div#bioWrapper div.bioColumn p {
   font-family: 'Merriweather Sans', sans-serif;
   font-weight: 300;
   text-align: justify;
   font-size: 16px;
+  line-height: 24px;
 }
 body div#page div#footer {
   display: inline;
@@ -163,7 +243,7 @@ body div#page div#footer {
   padding-top: 24px;
   margin-top: 24px;
   padding-bottom: 24px;
-  border-top: 1px solid #dadad0;
+  border-top: 1px solid #b8b8ae;
   text-align: center;
 }
 .clear {
@@ -214,13 +294,17 @@ body:after {
   clear: both;
 }
 @media screen and (min-width: 600px) {
-  body div#page div.bioColumn {
+  body div#page div#bioWrapper {
+    margin-top: 80px;
+    margin-bottom: 80px;
+  }
+  body div#page div#bioWrapper div.bioColumn {
     display: inline;
     float: left;
     width: 39.58333333333333%;
     margin: 0 1.0416666666666665%;
   }
-  body div#page div#bioColumnRight {
+  body div#page div#bioWrapper div#bioColumnRight {
     margin-left: 17.708333333333332%;
   }
 }

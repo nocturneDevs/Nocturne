@@ -14,22 +14,29 @@ body {
 		}
 
 		
-		
-		div.bioColumn {
-			.column(5);
-			h2 {
+		div#bioWrapper {
+			margin-top:@divMargin;
+			margin-bottom:@divMargin;
+			div.bioColumn {
+				.column(5);
+				
+				h2 {
+				}
+
+				p {
+				}
 			}
 
-			p {
-			}
-		}
-		div#bioColumnLeft {
+			div#bioColumnLeft {
 			
+			}
+
+			div#bioColumnRight {
+				.push(2)
+			}
 		}
 
-		div#bioColumnRight {
-			.push(2)
-		}
+		
 
 
 		div#footer {
