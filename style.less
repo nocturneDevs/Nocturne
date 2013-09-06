@@ -1,5 +1,5 @@
 /*
-Theme Name: NocturneTheme
+Theme Name: Nocturne
 Theme URI: http://nocturnedevs.com/nocturnetheme
 Author: Nocturne
 Author URI: http://nocturnedevs.com/
@@ -9,10 +9,35 @@ Version: 1.0
 This theme is written from scratch by Nocturne
 */
 
-body {
-	background:#15151f;
-	color:#fff;
+
+// This primarily serves for only the landing page
+@backgroundColor1:#25252f;
+@textColor1:#fff - @backgroundColor1; //#eaeae0;
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
 }
 
+// Importing custom styles
 @import "less/_mixins.less";
-@import "less/_grid.less";
+@import "less/_base.less";
+
+// With media queries
+@import "less/_desktop.less" screen and (min-width: 600px);

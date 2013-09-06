@@ -1,3 +1,7 @@
-		<?php echo 'Okthankyoubye.' ?>
+		
+
+		<div id="footer">
+			Okthankyoubye.
+		</div>
 	</div>
 </body>

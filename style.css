@@ -1,5 +1,5 @@
 /*
-Theme Name: NocturneTheme
+Theme Name: Nocturne
 Theme URI: http://nocturnedevs.com/nocturnetheme
 Author: Nocturne
 Author URI: http://nocturnedevs.com/
@@ -8,9 +8,163 @@ Version: 1.0
 
 This theme is written from scratch by Nocturne
 */
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+.clear {
+  clear: both;
+}
+.nobr {
+  white-space: nowrap;
+}
 body {
-  background: #15151f;
-  color: #fff;
+  background: #25252f;
+  color: #dadad0;
+}
+body div#page {
+  margin-left: auto;
+  margin-right: auto;
+  width: 85%;
+  max-width: 960px;
+  font-family: "Mako", sans-serif;
+}
+body div#page div#nocturneWrapper {
+  display: inline;
+  float: left;
+  width: 97.91666666666666%;
+  margin: 0 1.0416666666666665%;
+  margin-top: 48px;
+  margin-bottom: 24px;
+}
+body div#page div#nocturneWrapper h1 {
+  font-family: "Oxygen", "Helvetica", sans-serif;
+  font-size: 64px;
+  text-align: center;
+}
+body div#page div#nocturneWrapper h3 {
+  font-size: 32px;
+  text-align: center;
+}
+body div#page div#nocturneWrapper p {
+  margin-top: 48px;
+  font-size: 24px;
+  text-align: justify;
+}
+body div#page div.bioColumn {
+  display: inline;
+  float: left;
+  width: 97.91666666666666%;
+  margin: 0 1.0416666666666665%;
+  margin-top: 24px;
+  margin-bottom: 24px;
+}
+body div#page div.bioColumn h2 {
+  font-family: "Oxygen", "Helvetica", sans-serif;
+  font-weight: 400;
+  font-size: 36px;
+  margin-bottom: 12px;
+}
+body div#page div.bioColumn p {
+  font-family: 'Merriweather Sans', sans-serif;
+  font-weight: 300;
+  text-align: justify;
+  font-size: 16px;
+}
+body div#page div#footer {
+  display: inline;
+  float: left;
+  width: 97.91666666666666%;
+  margin: 0 1.0416666666666665%;
+  padding-top: 24px;
+  margin-top: 24px;
+  padding-bottom: 24px;
+  border-top: 1px solid #dadad0;
+  text-align: center;
 }
 .clear {
   clear: both;
@@ -50,4 +204,23 @@ body:after {
 }
 body:after {
   clear: both;
+}
+body:before,
+body:after {
+  content: " ";
+  display: table;
+}
+body:after {
+  clear: both;
+}
+@media screen and (min-width: 600px) {
+  body div#page div.bioColumn {
+    display: inline;
+    float: left;
+    width: 39.58333333333333%;
+    margin: 0 1.0416666666666665%;
+  }
+  body div#page div#bioColumnRight {
+    margin-left: 17.708333333333332%;
+  }
 }
