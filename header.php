@@ -22,7 +22,8 @@
 <meta charset="<?php bloginfo( 'charset' ); ?>" />
 <meta name="viewport" content="width=device-width" />
 
-<?php echo '<link rel="stylesheet" type="text/css" href="'.get_template_directory().'/style.css">' ?>
+<link rel="stylesheet" type="text/css" media="all" href="<?php bloginfo( 'stylesheet_url' ); ?>" />
+
 
 <!-- FONTS --><!-- TODO: Is this the best way to do this? --> 
 
