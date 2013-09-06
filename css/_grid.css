@@ -1,13 +1,3 @@
-body {
-  background: #15151f;
-  color: #fff;
-}
-.clear {
-  clear: both;
-}
-.nobr {
-  white-space: nowrap;
-}
 .clear {
   clear: both;
 }
@@ -24,14 +14,6 @@ body {
 }
 body {
   width: 100%;
-}
-body:before,
-body:after {
-  content: " ";
-  display: table;
-}
-body:after {
-  clear: both;
 }
 body:before,
 body:after {
