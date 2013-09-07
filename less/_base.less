@@ -6,6 +6,7 @@ body {
 	color:@textColor1;
 
 	div#page {
+		
 		.clearfix();
 		margin-left:auto;
 		margin-right:auto;
@@ -13,17 +14,28 @@ body {
 		max-width:960px;
 		font-family:"Mako",sans-serif;
 
+		a {
+			text-decoration:none;
+			color:inherit;
+
+			&:hover {
+				color:#339a80;
+			}
+		}
+
 		div#nocturneWrapper {
 			.clearfix();
 			.column(12);
 			margin-top:2*@divMargin;
 			margin-bottom:2*@divMargin;
+			
 			h1 {
 				font-family:"Oxygen","Helvetica",sans-serif;
 				font-size:72px;
 				text-align:center;
+				
 			}
-
+		
 			h3 {
 				font-size:32px;
 				text-align:center;
@@ -56,7 +68,7 @@ body {
 					font-family: 'Merriweather Sans', sans-serif;
 					font-weight:300;
 					text-align:justify;
-					font-size:16px;
+					font-size:14px;
 					line-height:24px;
 				}
 			}

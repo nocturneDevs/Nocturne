@@ -1,7 +1,7 @@
 <?php get_header(); ?>
 
 	<div id="nocturneWrapper">
-		<h1>Nocturne</h1>
+		<h1><a href="<?php echo home_url(); ?>">Nocturne</a></h1>
 		<h3>Coffee, Cola, Code</h3>
 		<p> These two best buddies from IIT Madras have worked 
 			together on their varied interests for over 4 years 
@@ -16,7 +16,7 @@
 	
 	<div id="bioWrapper">
 		<div class="bioColumn" id="bioColumnLeft">
-			<h2>Sanjay Guruprasad</h2>
+			<h2><a>Sanjay Guruprasad</a></h2>
 			<p>
 				Sanjay comes from a family of coders. His parents
 				started up in the late 80s - their company Softrade 
@@ -29,7 +29,7 @@
 			</p>
 		</div>
 		<div class="bioColumn" id="bioColumnRight">
-			<h2>Hari Mohanraj</h2>
+			<h2><a>Hari Mohanraj</a></h2>
 			<p>
 				Hari is currently pursuing his Masters degree in 
 				Music Technology at New York University. His 

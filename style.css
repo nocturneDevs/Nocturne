@@ -140,6 +140,13 @@ body div#page:after {
 body div#page:after {
   clear: both;
 }
+body div#page a {
+  text-decoration: none;
+  color: inherit;
+}
+body div#page a:hover {
+  color: #339a80;
+}
 body div#page div#nocturneWrapper {
   display: inline;
   float: left;
@@ -232,7 +239,7 @@ body div#page div#bioWrapper div.bioColumn p {
   font-family: 'Merriweather Sans', sans-serif;
   font-weight: 300;
   text-align: justify;
-  font-size: 16px;
+  font-size: 14px;
   line-height: 24px;
 }
 body div#page div#footer {
