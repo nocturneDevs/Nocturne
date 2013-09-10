@@ -115,6 +115,7 @@ video {
 }
 html {
   margin: 0;
+  font-size: 50%;
 }
 body {
   background: #25252f;
@@ -124,7 +125,7 @@ body div#page {
   margin-left: auto;
   margin-right: auto;
   width: 85%;
-  max-width: 960px;
+  max-width: 96rem;
   font-family: "Mako", sans-serif;
 }
 body div#page:before,
@@ -146,6 +147,8 @@ body div#page:after {
 body div#page a {
   text-decoration: none;
   color: inherit;
+  transition: color 0.25s linear;
+  -webkit-transition: color 0.25s ease-out;
 }
 body div#page a:hover {
   color: #339a80;
@@ -155,8 +158,8 @@ body div#page div#nocturneWrapper {
   float: left;
   width: 97.91666666666666%;
   margin: 0 1.0416666666666665%;
-  margin-top: 160px;
-  margin-bottom: 160px;
+  margin-top: 8rem;
+  margin-bottom: 0;
 }
 body div#page div#nocturneWrapper:before,
 body div#page div#nocturneWrapper:after {
@@ -176,82 +179,109 @@ body div#page div#nocturneWrapper:after {
 }
 body div#page div#nocturneWrapper h1 {
   font-family: "Oxygen", "Helvetica", sans-serif;
-  font-size: 72px;
+  font-size: 7.2rem;
   text-align: center;
 }
 body div#page div#nocturneWrapper h3 {
-  font-size: 32px;
+  font-size: 3.2rem;
   text-align: center;
 }
 body div#page div#nocturneWrapper p {
-  margin-top: 48px;
-  font-size: 24px;
-  line-height: 36px;
+  margin-top: 4.8rem;
+  font-size: 2.4rem;
+  line-height: 3.6rem;
   text-align: justify;
 }
-body div#page div#bioWrapper {
-  width: 100%;
-  margin-top: 80px;
-  margin-bottom: 80px;
-}
-body div#page div#bioWrapper:before,
-body div#page div#bioWrapper:after {
-  content: " ";
-  display: table;
-}
-body div#page div#bioWrapper:after {
-  clear: both;
-}
-body div#page div#bioWrapper:before,
-body div#page div#bioWrapper:after {
-  content: " ";
-  display: table;
-}
-body div#page div#bioWrapper:after {
-  clear: both;
-}
-body div#page div#bioWrapper div.bioColumn {
+body div#page div.bioColumn {
   display: inline;
   float: left;
   width: 97.91666666666666%;
   margin: 0 1.0416666666666665%;
+  margin-top: 8rem;
 }
-body div#page div#bioWrapper div.bioColumn h2 {
+body div#page div.bioColumn h2 {
   font-family: "Oxygen", "Helvetica", sans-serif;
   font-weight: 400;
-  font-size: 36px;
-  margin-bottom: 12px;
+  font-size: 3.6rem;
+  margin-bottom: 0.6rem;
 }
-body div#page div#bioWrapper div.bioColumn p {
+body div#page div.bioColumn p {
   font-family: 'Merriweather Sans', sans-serif;
   font-weight: 300;
   text-align: justify;
-  font-size: 14px;
-  line-height: 24px;
+  font-size: 1.4rem;
+  line-height: 2.4rem;
+}
+body div#page div.bioColumn p.email {
+  font-size: 1.6rem;
+  margin-bottom: 0.6rem;
+}
+body div#page div.bioColumn p.email a {
+  text-decoration: none;
+  color: #339a80;
+  transition: color 0.25s linear;
+  -webkit-transition: color 0.25s ease-out;
+}
+body div#page div.bioColumn p.email a:hover {
+  color: #40c0a0;
+}
+body div#page div.bioColumn div.imgWrapper {
+  width: 100%;
+  padding: 0.5rem;
+  height: 30rem;
+  margin-bottom: 0.6rem;
+  border: 1px solid #dadad0;
+  border-radius: 0.5rem;
+}
+body div#page div.bioColumn div.imgWrapper:before,
+body div#page div.bioColumn div.imgWrapper:after {
+  content: " ";
+  display: table;
+}
+body div#page div.bioColumn div.imgWrapper:after {
+  clear: both;
+}
+body div#page div.bioColumn div.imgWrapper:before,
+body div#page div.bioColumn div.imgWrapper:after {
+  content: " ";
+  display: table;
+}
+body div#page div.bioColumn div.imgWrapper:after {
+  clear: both;
+}
+body div#page div.bioColumn div.imgWrapper div.biopic {
+  width: 100%;
+  height: 100%;
+  background: rgba(255, 255, 255, 0.1);
 }
 body div#page div#footer {
   display: inline;
   float: left;
   width: 97.91666666666666%;
   margin: 0 1.0416666666666665%;
-  padding-top: 24px;
-  margin-top: 24px;
-  padding-bottom: 24px;
+  padding-top: 2.4rem;
+  margin-top: 2.4rem;
+  padding-bottom: 2.4rem;
   border-top: 1px solid #b8b8ae;
   text-align: center;
+  font-size: 1.3rem;
 }
 @media screen and (min-width: 600px) {
-  body div#page div#bioWrapper {
-    margin-top: 80px;
-    margin-bottom: 80px;
+  html {
+    font-size: 62.5%;
   }
-  body div#page div#bioWrapper div.bioColumn {
+  body div#page div#nocturneWrapper {
+    margin-top: 18rem;
+    margin-bottom: 18rem;
+  }
+  body div#page div.bioColumn {
     display: inline;
     float: left;
     width: 39.58333333333333%;
     margin: 0 1.0416666666666665%;
+    margin-top: 8rem;
   }
-  body div#page div#bioWrapper div#bioColumnRight {
+  body div#page div#bioColumnRight {
     margin-left: 17.708333333333332%;
   }
 }

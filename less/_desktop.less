@@ -1,47 +1,40 @@
+html {
+	font-size:62.5%;
+}
+
 body {
 
 	div#page {
 		div#nocturneWrapper {
-
+			margin-top:2.25*@divMargin;
+			margin-bottom:2.25*@divMargin;
 			h1 {
 			}
-
 			h3 {
 			}
+			p {
+			}
+		}
+		
+		div.bioColumn {
+			.column(5);
 
+			margin-top:@divMargin;
+			h2 {
+			}
 			p {
 			}
 		}
 
-		
-		div#bioWrapper {
-			margin-top:@divMargin;
-			margin-bottom:@divMargin;
-			div.bioColumn {
-				.column(5);
-				
-				h2 {
-				}
-
-				p {
-				}
-			}
-
-			div#bioColumnLeft {
-			
-			}
-
-			div#bioColumnRight {
-				.push(2)
-			}
+		div#bioColumnLeft {
 		}
 
-		
-
+		div#bioColumnRight {
+			.push(2)
+		}
 
 		div#footer {
 		}
-
 	}
 }
 

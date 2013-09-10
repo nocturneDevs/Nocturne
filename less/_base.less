@@ -4,7 +4,9 @@
 
 html {
 	margin:0;
+	font-size:50%;
 }
+
 body {
 	background:@backgroundColor1;
 	color:@textColor1;
@@ -15,78 +17,107 @@ body {
 		margin-left:auto;
 		margin-right:auto;
 		width:85%;
-		max-width:960px;
+		max-width:96rem;
 		font-family:"Mako",sans-serif;
 
 		a {
 			text-decoration:none;
 			color:inherit;
+			transition:color 0.25s linear;
+			-webkit-transition:color 0.25s ease-out;
 
 			&:hover {
-				color:#339a80;
+				color:@nocturneGreen;
 			}
 		}
 
 		div#nocturneWrapper {
 			.clearfix();
 			.column(12);
-			margin-top:2*@divMargin;
-			margin-bottom:2*@divMargin;
+			margin-top:@divMargin;
+			margin-bottom:0;
 			
 			h1 {
 				font-family:"Oxygen","Helvetica",sans-serif;
-				font-size:72px;
+				font-size:7.2rem;
 				text-align:center;
 				
 			}
 		
 			h3 {
-				font-size:32px;
+				font-size:3.2rem;
 				text-align:center;
 			}
 
 			p {
-				margin-top:48px;
-				font-size:24px;
-				line-height:36px;
+				margin-top:4.8rem;
+				font-size:2.4rem;
+				line-height:3.6rem;
 				text-align:justify;
 			}
 		}
 
-		div#bioWrapper{
-			.clearfix();
-			width:100%;
+		div.bioColumn {
+			.column(12);
 			margin-top:@divMargin;
-			margin-bottom:@divMargin;
-			div.bioColumn {
-				.column(12);
-				h2 {
-					font-family:"Oxygen","Helvetica",sans-serif;
-					font-weight:400;
-					font-size:36px;
+			h2 {
+				font-family:"Oxygen","Helvetica",sans-serif;
+				font-weight:400;
+				font-size:3.6rem;
 
-					margin-bottom:12px;
+				margin-bottom:0.6rem;
+			}
+
+			p {
+				font-family: 'Merriweather Sans', sans-serif;
+				font-weight:300;
+				text-align:justify;
+				font-size:1.4rem;
+				line-height:2.4rem;
+			}
+
+			p.email {
+				font-size:1.6rem;
+				margin-bottom:0.6rem;
+				a {
+					text-decoration:none;
+					color:@nocturneGreen;
+					transition:color 0.25s linear;
+					-webkit-transition:color 0.25s ease-out;
+
+					&:hover {
+						color:lighten(@nocturneGreen,10%);
+					}
 				}
+			}
 
-				p {
-					font-family: 'Merriweather Sans', sans-serif;
-					font-weight:300;
-					text-align:justify;
-					font-size:14px;
-					line-height:24px;
+			div.imgWrapper {
+				width:100%;
+				padding:0.5rem;
+				height:30rem;
+				margin-bottom:0.6rem;
+				.clearfix;
+
+				border:1px solid @textColor1;
+				border-radius:0.5rem;
+
+				div.biopic {
+					width:100%;
+					height:100%;
+					background:rgba(255,255,255,0.1);
 				}
 			}
 		}
 
-
 		div#footer {
 			.column(12);
-			padding-top:24px;
-			margin-top:24px;
-			padding-bottom:24px;
+			padding-top:2.4rem;
+			margin-top:2.4rem;
+			padding-bottom:2.4rem;
 			border-top:1px solid @textColor1 - #222;
 			text-align:center;
-		}
 
+			font-size:1.3rem;
+		}
 	}
 }
