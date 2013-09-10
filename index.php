@@ -19,6 +19,11 @@
 		<div class="imgWrapper">
 			<div class="biopic"></div>
 		</div>
+
+		<div class="iconwrapper"><i class="icon-twitter icon-3x"></i></div>
+		<div class="iconwrapper"><i class="icon-envelope icon-3x"></i></div>
+		<div class="iconwrapper"><i class="icon-globe icon-3x"></i></div>
+
 		<p class="content">
 			Sanjay comes from a family of coders. His parents
 			started up in the late 80s - their company Softrade 
@@ -29,6 +34,7 @@
 			code runs in his blood. He is very into minimalist 
 			design, iOS and the web.
 		</p>
+
 	</div>
 	<div class="bioColumn" id="bioColumnRight">
 		<h2><a href="https://twitter.com/hari_mohanraj" target="_blank">Hari Mohanraj</a></h2>
@@ -36,6 +42,11 @@
 		<div class="imgWrapper">
 			<div class="biopic"></div>
 		</div>
+		
+		<div class="iconwrapper"><i class="icon-twitter icon-3x"></i></div>
+		<div class="iconwrapper"><i class="icon-envelope icon-3x"></i></div>
+		<div class="iconwrapper"><i class="icon-globe icon-3x"></i></div>
+		
 		<p class="content">
 			Hari is currently pursuing his Masters degree in 
 			Music Technology at New York University. His 

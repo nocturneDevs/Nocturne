@@ -24,6 +24,8 @@
 
 <link rel="stylesheet" type="text/css" media="all" href="<?php echo get_template_directory_uri(); ?>/css/style.css" />
 
+<!-- Scalable Vector Icons from Font Awesome -->
+<link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
 
 <!-- FONTS --><!-- TODO: Is this the best way to do this? --> 
 <link href='http://fonts.googleapis.com/css?family=Oxygen:400,700' rel='stylesheet' type='text/css'>

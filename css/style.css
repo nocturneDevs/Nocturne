@@ -206,11 +206,12 @@ body div#page div.bioColumn h2 {
   margin-bottom: 0.6rem;
 }
 body div#page div.bioColumn p {
+  clear: both;
   font-family: 'Merriweather Sans', sans-serif;
   font-weight: 300;
   text-align: justify;
-  font-size: 1.4rem;
-  line-height: 2.4rem;
+  font-size: 1.6rem;
+  line-height: 2.6rem;
 }
 body div#page div.bioColumn p.email {
   font-size: 1.6rem;
@@ -226,7 +227,10 @@ body div#page div.bioColumn p.email a:hover {
   color: #40c0a0;
 }
 body div#page div.bioColumn div.imgWrapper {
-  width: 100%;
+  float: left;
+  width: 80%;
+  min-width: 20rem;
+  max-width: 30rem;
   padding: 0.5rem;
   height: 30rem;
   margin-bottom: 0.6rem;
@@ -254,6 +258,22 @@ body div#page div.bioColumn div.imgWrapper div.biopic {
   height: 100%;
   background: rgba(255, 255, 255, 0.1);
 }
+body div#page div.bioColumn div.iconwrapper {
+  float: left;
+  padding-left: 1.2rem;
+  padding-right: 1.2rem;
+  padding-top: 0.6rem;
+  padding-bottom: 0.6rem;
+}
+body div#page div.bioColumn div.iconwrapper i {
+  font-size: 3rem;
+  color: #888;
+  transition: color 0.25s linear;
+  -webkit-transition: color 0.25s ease-out;
+}
+body div#page div.bioColumn div.iconwrapper i:hover {
+  color: #339a80;
+}
 body div#page div#footer {
   display: inline;
   float: left;
@@ -280,6 +300,13 @@ body div#page div#footer {
     width: 39.58333333333333%;
     margin: 0 1.0416666666666665%;
     margin-top: 8rem;
+  }
+  body div#page div.bioColumn p {
+    font-size: 1.4rem;
+    line-height: 2.4rem;
+  }
+  body div#page div.bioColumn div.iconwrapper {
+    width: 20%;
   }
   body div#page div#bioColumnRight {
     margin-left: 17.708333333333332%;
