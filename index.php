@@ -14,15 +14,15 @@
 
 	
 	<div class="bioColumn" id="bioColumnLeft">
-		<h2><a href="https://twitter.com/sanjaypojo" target="_blank">Sanjay Guruprasad</a></h2>
+		<h2>Sanjay Guruprasad</h2>
 		<p class="email"><a href="mailto:sanjay@nocturnedevs.com" target="_blank">sanjay@nocturnedevs.com</a></p>
 		<div class="imgWrapper">
 			<div class="biopic"></div>
 		</div>
 
-		<div class="iconwrapper"><i class="icon-twitter icon-3x"></i></div>
-		<div class="iconwrapper"><i class="icon-envelope icon-3x"></i></div>
-		<div class="iconwrapper"><i class="icon-globe icon-3x"></i></div>
+		<div class="iconwrapper"><a href="https://twitter.com/sanjaypojo" target="_blank"><i class="icon-twitter icon-3x"></i></a></div>
+		<div class="iconwrapper"><a href="mailto:sanjay@nocturnedevs.com" target="_blank"><i class="icon-envelope icon-3x"></i></a></div>
+		<div class="iconwrapper"><a href="http://thoughtarium.com" target="_blank"><i class="icon-globe icon-3x"></i></a></div>
 
 		<p class="content">
 			Sanjay comes from a family of coders. His parents
@@ -37,15 +37,15 @@
 
 	</div>
 	<div class="bioColumn" id="bioColumnRight">
-		<h2><a href="https://twitter.com/hari_mohanraj" target="_blank">Hari Mohanraj</a></h2>
-		<p class="email"><a href="mailto:hari@nocturnedevs.com" target="_blank">hari@nocturnedevs.com</a></p>
+		<h2>Hari Mohanraj</h2>
+		<!-- <p class="email"><a href="mailto:hari@nocturnedevs.com" target="_blank">hari@nocturnedevs.com</a></p> -->
 		<div class="imgWrapper">
 			<div class="biopic"></div>
 		</div>
 		
-		<div class="iconwrapper"><i class="icon-twitter icon-3x"></i></div>
-		<div class="iconwrapper"><i class="icon-envelope icon-3x"></i></div>
-		<div class="iconwrapper"><i class="icon-globe icon-3x"></i></div>
+		<div class="iconwrapper"><a href="https://twitter.com/hari_mohanraj" target="_blank"><i class="icon-twitter icon-3x"></i></a></div>
+		<div class="iconwrapper"><a href="mailto:hari@nocturnedevs.com" target="_blank"><i class="icon-envelope icon-3x"></i></a></div>
+		<div class="iconwrapper"><a href="http://www.youtube.com/user/skfreak914" target="_blank"><i class="icon-youtube icon-3x"></i></a></div>
 		
 		<p class="content">
 			Hari is currently pursuing his Masters degree in 

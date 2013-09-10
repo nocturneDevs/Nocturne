@@ -227,7 +227,7 @@ body div#page div.bioColumn p.email a:hover {
   color: #40c0a0;
 }
 body div#page div.bioColumn div.imgWrapper {
-  float: left;
+  float: none;
   width: 80%;
   min-width: 20rem;
   max-width: 30rem;
@@ -264,10 +264,11 @@ body div#page div.bioColumn div.iconwrapper {
   padding-right: 1.2rem;
   padding-top: 0.6rem;
   padding-bottom: 0.6rem;
+  width: 5rem;
 }
 body div#page div.bioColumn div.iconwrapper i {
   font-size: 3rem;
-  color: #888;
+  color: #777;
   transition: color 0.25s linear;
   -webkit-transition: color 0.25s ease-out;
 }
@@ -305,7 +306,11 @@ body div#page div#footer {
     font-size: 1.4rem;
     line-height: 2.4rem;
   }
+  body div#page div.bioColumn div.imgWrapper {
+    float: left;
+  }
   body div#page div.bioColumn div.iconwrapper {
+    min-width: 5rem;
     width: 20%;
   }
   body div#page div#bioColumnRight {
