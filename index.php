@@ -38,7 +38,7 @@
 	</div>
 	<div class="bioColumn" id="bioColumnRight">
 		<h2>Hari Mohanraj</h2>
-		<!-- <p class="email"><a href="mailto:hari@nocturnedevs.com" target="_blank">hari@nocturnedevs.com</a></p> -->
+		<p class="email"><a href="mailto:hari@nocturnedevs.com" target="_blank">hari@nocturnedevs.com</a></p>
 		<div class="imgWrapper">
 			<div class="biopic"></div>
 		</div>
