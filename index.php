@@ -1,7 +1,7 @@
 <?php get_header(); ?>
 
 	<div id="nocturneWrapper">
-		<h1><a href="<?php echo home_url(); ?>">Nocturne</a></h1>
+		<h1><a href="<?php echo home_url(); ?>">nocturne</a></h1>
 		<h3>Coffee, Cola, Code</h3>
 		<p> These two best buddies from IIT Madras have worked 
 			together on their varied interests for over 4 years 
@@ -15,15 +15,13 @@
 	
 	<div class="bioColumn" id="bioColumnLeft">
 		<h2>Sanjay Guruprasad</h2>
-		<p class="email"><a href="mailto:sanjay@nocturnedevs.com" target="_blank">sanjay@nocturnedevs.com</a></p>
-		<div class="imgWrapper">
-			<div class="biopic"></div>
-		</div>
-
-		<div class="iconwrapper">
+		<p class="iconwrapper">
 			<a href="https://twitter.com/sanjaypojo" target="_blank"><i class="icon-twitter icon-3x"></i></a>
 			<a href="mailto:sanjay@nocturnedevs.com" target="_blank"><i class="icon-envelope icon-3x"></i></a>
 			<a href="http://thoughtarium.com" target="_blank"><i class="icon-globe icon-3x"></i></a>
+		</p>
+		<div class="imgWrapper">
+			<div class="biopic"></div>
 		</div>
 
 		<p class="content">
@@ -40,15 +38,13 @@
 	</div>
 	<div class="bioColumn" id="bioColumnRight">
 		<h2>Hari Mohanraj</h2>
-		<p class="email"><a href="mailto:hari@nocturnedevs.com" target="_blank">hari@nocturnedevs.com</a></p>
-		<div class="imgWrapper">
-			<div class="biopic"></div>
-		</div>
-		
-		<div class="iconwrapper">
+		<p class="iconwrapper">
 			<a href="https://twitter.com/hari_mohanraj" target="_blank"><i class="icon-twitter icon-3x"></i></a>
 			<a href="mailto:hari@nocturnedevs.com" target="_blank"><i class="icon-envelope icon-3x"></i></a>
 			<a href="http://www.youtube.com/user/skfreak914" target="_blank"><i class="icon-youtube icon-3x"></i></a>
+		</p>
+		<div class="imgWrapper">
+			<div class="biopic"></div>
 		</div>
 		
 		<p class="content">
