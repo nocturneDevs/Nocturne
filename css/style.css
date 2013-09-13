@@ -257,7 +257,7 @@ body div#page div.bioColumn div.imgWrapper:after {
 body div#page div.bioColumn div.imgWrapper:after {
   clear: both;
 }
-body div#page div.bioColumn div.imgWrapper div.biopic {
+body div#page div.bioColumn div.imgWrapper img.biopic {
   width: 100%;
   height: 100%;
   margin: 0;

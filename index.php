@@ -21,7 +21,7 @@
 			<a href="http://thoughtarium.com" target="_blank"><i class="icon-globe icon-3x"></i></a>
 		</p>
 		<div class="imgWrapper">
-			<div class="biopic"></div>
+			<img src="<?php echo get_template_directory_uri(); ?>/resources/images/sgpic.jpg" class="biopic"></img>
 		</div>
 
 		<p class="content">
@@ -44,7 +44,7 @@
 			<a href="http://www.youtube.com/user/skfreak914" target="_blank"><i class="icon-youtube icon-3x"></i></a>
 		</p>
 		<div class="imgWrapper">
-			<div class="biopic"></div>
+			<img src="<?php echo get_template_directory_uri(); ?>/resources/images/hmpic.jpg" class="biopic"></img>
 		</div>
 		
 		<p class="content">
