@@ -203,6 +203,7 @@ body div#page div.bioColumn h2 {
   font-family: "Oxygen", "Helvetica", sans-serif;
   font-weight: 400;
   font-size: 3.6rem;
+  text-align: center;
   margin-bottom: 0.6rem;
 }
 body div#page div.bioColumn p {
@@ -216,6 +217,7 @@ body div#page div.bioColumn p {
 body div#page div.bioColumn p.email {
   font-size: 1.6rem;
   margin-bottom: 0.6rem;
+  text-align: center;
 }
 body div#page div.bioColumn p.email a {
   text-decoration: none;
@@ -227,15 +229,16 @@ body div#page div.bioColumn p.email a:hover {
   color: #40c0a0;
 }
 body div#page div.bioColumn div.imgWrapper {
-  float: none;
-  width: 80%;
-  min-width: 20rem;
-  max-width: 30rem;
+  display: inline;
+  float: left;
+  width: 81.25%;
+  margin: 0 1.0416666666666665%;
+  margin-left: 9.374999999999998%;
   padding: 0.5rem;
   height: 30rem;
   margin-bottom: 0.6rem;
-  border: 1px solid #dadad0;
-  border-radius: 0.5rem;
+  border: 10px solid #1a1a21;
+  border-radius: 100%;
 }
 body div#page div.bioColumn div.imgWrapper:before,
 body div#page div.bioColumn div.imgWrapper:after {
@@ -256,10 +259,15 @@ body div#page div.bioColumn div.imgWrapper:after {
 body div#page div.bioColumn div.imgWrapper div.biopic {
   width: 100%;
   height: 100%;
+  margin: 0;
+  padding: 0;
+  border-radius: 100%;
   background: rgba(255, 255, 255, 0.1);
 }
 body div#page div.bioColumn div.iconwrapper {
-  float: left;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
   padding-left: 1.2rem;
   padding-right: 1.2rem;
   padding-top: 0.6rem;
@@ -274,6 +282,9 @@ body div#page div.bioColumn div.iconwrapper i {
 }
 body div#page div.bioColumn div.iconwrapper i:hover {
   color: #339a80;
+}
+body div#page div.bioColumn div.iconwrapper a {
+  display: inline-block;
 }
 body div#page div#footer {
   display: inline;

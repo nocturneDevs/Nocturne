@@ -20,9 +20,11 @@
 			<div class="biopic"></div>
 		</div>
 
-		<div class="iconwrapper"><a href="https://twitter.com/sanjaypojo" target="_blank"><i class="icon-twitter icon-3x"></i></a></div>
-		<div class="iconwrapper"><a href="mailto:sanjay@nocturnedevs.com" target="_blank"><i class="icon-envelope icon-3x"></i></a></div>
-		<div class="iconwrapper"><a href="http://thoughtarium.com" target="_blank"><i class="icon-globe icon-3x"></i></a></div>
+		<div class="iconwrapper">
+			<a href="https://twitter.com/sanjaypojo" target="_blank"><i class="icon-twitter icon-3x"></i></a>
+			<a href="mailto:sanjay@nocturnedevs.com" target="_blank"><i class="icon-envelope icon-3x"></i></a>
+			<a href="http://thoughtarium.com" target="_blank"><i class="icon-globe icon-3x"></i></a>
+		</div>
 
 		<p class="content">
 			Sanjay comes from a family of coders. His parents
@@ -43,9 +45,11 @@
 			<div class="biopic"></div>
 		</div>
 		
-		<div class="iconwrapper"><a href="https://twitter.com/hari_mohanraj" target="_blank"><i class="icon-twitter icon-3x"></i></a></div>
-		<div class="iconwrapper"><a href="mailto:hari@nocturnedevs.com" target="_blank"><i class="icon-envelope icon-3x"></i></a></div>
-		<div class="iconwrapper"><a href="http://www.youtube.com/user/skfreak914" target="_blank"><i class="icon-youtube icon-3x"></i></a></div>
+		<div class="iconwrapper">
+			<a href="https://twitter.com/hari_mohanraj" target="_blank"><i class="icon-twitter icon-3x"></i></a>
+			<a href="mailto:hari@nocturnedevs.com" target="_blank"><i class="icon-envelope icon-3x"></i></a>
+			<a href="http://www.youtube.com/user/skfreak914" target="_blank"><i class="icon-youtube icon-3x"></i></a>
+		</div>
 		
 		<p class="content">
 			Hari is currently pursuing his Masters degree in 

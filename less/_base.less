@@ -64,6 +64,7 @@ body {
 				font-family:"Oxygen","Helvetica",sans-serif;
 				font-weight:400;
 				font-size:3.6rem;
+				text-align: center;
 
 				margin-bottom:0.6rem;
 			}
@@ -80,6 +81,7 @@ body {
 			p.email {
 				font-size:1.6rem;
 				margin-bottom:0.6rem;
+				text-align: center;
 				a {
 					text-decoration:none;
 					color:@nocturneGreen;
@@ -93,27 +95,28 @@ body {
 			}
 
 			div.imgWrapper {
-				float:none;
-				width:80%;
-				min-width:20rem;
-				max-width:30rem;
+				.column(10);
+				.push(1);
 				padding:0.5rem;
 				height:30rem;
 				margin-bottom:0.6rem;
 				.clearfix;
 
-				border:1px solid @textColor1;
-				border-radius:0.5rem;
+				border:10px solid @black;
+				border-radius:100%;
 
 				div.biopic {
 					width:100%;
 					height:100%;
+					margin: 0;
+					padding:0;
+					border-radius: 100%;
 					background:rgba(255,255,255,0.1);
 				}
 			}
 
 			div.iconwrapper {
-				float:left;
+				.center();
 				padding-left:1.2rem;
 				padding-right:1.2rem;
 				padding-top:0.6rem;
@@ -128,6 +131,9 @@ body {
 					&:hover {
 						color:@nocturneGreen;
 					}
+				}
+				a {
+					display: inline-block;
 				}
 			}
 		}
