@@ -118,12 +118,12 @@ html {
   font-size: 50%;
 }
 body {
-  background-image: linear-gradient(bottom, #25252f 12%, #25252f 56%);
-  background-image: -o-linear-gradient(bottom, #25252f 12%, #25252f 56%);
-  background-image: -moz-linear-gradient(bottom, #25252f 12%, #25252f 56%);
-  background-image: -webkit-linear-gradient(bottom, #25252f 12%, #25252f 56%);
-  background-image: -ms-linear-gradient(bottom, #25252f 12%, #25252f 56%);
-  background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0.12, #25252f), color-stop(0.56, #25252f), color-stop(0.78, #15151a));
+  background-image: linear-gradient(bottom, #25252f 56%, #15151a 78%);
+  background-image: -o-linear-gradient(bottom, #25252f 56%, #15151a 78%);
+  background-image: -moz-linear-gradient(bottom, #25252f 56%, #15151a 78%);
+  background-image: -webkit-linear-gradient(bottom, #25252f 56%, #15151a 78%);
+  background-image: -ms-linear-gradient(bottom, #25252f 56%, #15151a 78%);
+  background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0.56, #25252f), color-stop(0.78, #15151a));
   color: #dadad0;
 }
 body div#page {
@@ -191,6 +191,7 @@ body div#page div#nocturneWrapper h1 {
 body div#page div#nocturneWrapper h3 {
   font-size: 3.2rem;
   text-align: center;
+  letter-spacing: 3px;
 }
 body div#page div#nocturneWrapper p {
   margin-top: 4.8rem;
