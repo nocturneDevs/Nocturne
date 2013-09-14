@@ -8,7 +8,22 @@ html {
 }
 
 body {
-	background:@backgroundColor1;
+	//background:@backgroundColor1;
+	background-image: linear-gradient(bottom, rgb(37,37,47) 12%, rgb(37,37,47) 56%);
+	background-image: -o-linear-gradient(bottom, rgb(37,37,47) 12%, rgb(37,37,47) 56%);
+	background-image: -moz-linear-gradient(bottom, rgb(37,37,47) 12%, rgb(37,37,47) 56%);
+	background-image: -webkit-linear-gradient(bottom, rgb(37,37,47) 12%, rgb(37,37,47) 56%);
+	background-image: -ms-linear-gradient(bottom, rgb(37,37,47) 12%, rgb(37,37,47) 56%);
+
+	background-image: -webkit-gradient(
+		linear,
+		left bottom,
+		left top,
+		color-stop(0.12, rgb(37,37,47)),
+		color-stop(0.56, rgb(37,37,47)),
+		color-stop(0.78, rgb(21,21,26))
+	);
+
 	color:@textColor1;
 
 	div#page {
@@ -38,9 +53,8 @@ body {
 			
 			h1 {
 				font-family:"Oxygen","Helvetica",sans-serif;
-				font-size:7.2rem;
+				font-size:8rem;
 				text-align:center;
-				
 			}
 		
 			h3 {
@@ -105,7 +119,7 @@ body {
 
 				img.biopic {
 					width:100%;
-					height:100%;
+					//height:100%;
 					margin: 0;
 					padding:0;
 					border-radius: 100%;

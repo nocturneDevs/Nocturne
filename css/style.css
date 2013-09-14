@@ -118,7 +118,12 @@ html {
   font-size: 50%;
 }
 body {
-  background: #25252f;
+  background-image: linear-gradient(bottom, #25252f 12%, #25252f 56%);
+  background-image: -o-linear-gradient(bottom, #25252f 12%, #25252f 56%);
+  background-image: -moz-linear-gradient(bottom, #25252f 12%, #25252f 56%);
+  background-image: -webkit-linear-gradient(bottom, #25252f 12%, #25252f 56%);
+  background-image: -ms-linear-gradient(bottom, #25252f 12%, #25252f 56%);
+  background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0.12, #25252f), color-stop(0.56, #25252f), color-stop(0.78, #15151a));
   color: #dadad0;
 }
 body div#page {
@@ -180,7 +185,7 @@ body div#page div#nocturneWrapper:after {
 }
 body div#page div#nocturneWrapper h1 {
   font-family: "Oxygen", "Helvetica", sans-serif;
-  font-size: 7.2rem;
+  font-size: 8rem;
   text-align: center;
 }
 body div#page div#nocturneWrapper h3 {
@@ -258,7 +263,6 @@ body div#page div.bioColumn div.imgWrapper:after {
 }
 body div#page div.bioColumn div.imgWrapper img.biopic {
   width: 100%;
-  height: 100%;
   margin: 0;
   padding: 0;
   border-radius: 100%;
