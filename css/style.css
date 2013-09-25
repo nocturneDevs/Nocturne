@@ -159,6 +159,28 @@ body div#page a {
 body div#page a:hover {
   color: #339a80;
 }
+body div#page h1 {
+  font-family: "Oxygen", "Helvetica", sans-serif;
+  font-size: 8rem;
+  text-align: center;
+}
+body div#page h2 {
+  font-family: "Oxygen", "Helvetica", sans-serif;
+  font-weight: 400;
+  font-size: 3.6rem;
+  text-align: center;
+  margin-bottom: 0.6rem;
+}
+body div#page h3 {
+  font-size: 3.2rem;
+  text-align: center;
+}
+body div#page p.largeContent {
+  margin-top: 4.8rem;
+  font-size: 2.4rem;
+  line-height: 3.6rem;
+  text-align: justify;
+}
 body div#page div#nocturneWrapper {
   display: inline;
   float: left;
@@ -183,35 +205,12 @@ body div#page div#nocturneWrapper:after {
 body div#page div#nocturneWrapper:after {
   clear: both;
 }
-body div#page div#nocturneWrapper h1 {
-  font-family: "Oxygen", "Helvetica", sans-serif;
-  font-size: 8rem;
-  text-align: center;
-}
-body div#page div#nocturneWrapper h3 {
-  font-size: 3.2rem;
-  text-align: center;
-  letter-spacing: 3px;
-}
-body div#page div#nocturneWrapper p {
-  margin-top: 4.8rem;
-  font-size: 2.4rem;
-  line-height: 3.6rem;
-  text-align: justify;
-}
 body div#page div.bioColumn {
   display: inline;
   float: left;
   width: 97.91666666666666%;
   margin: 0 1.0416666666666665%;
   margin-top: 8rem;
-}
-body div#page div.bioColumn h2 {
-  font-family: "Oxygen", "Helvetica", sans-serif;
-  font-weight: 400;
-  font-size: 3.6rem;
-  text-align: center;
-  margin-bottom: 0.6rem;
 }
 body div#page div.bioColumn p {
   clear: both;
@@ -288,6 +287,13 @@ body div#page div.bioColumn p.iconwrapper a {
   padding-left: 1.2rem;
   padding-right: 1.2rem;
 }
+body div#page div#workWrapper {
+  display: inline;
+  float: left;
+  width: 97.91666666666666%;
+  margin: 0 1.0416666666666665%;
+  margin-top: 8rem;
+}
 body div#page div#footer {
   display: inline;
   float: left;
@@ -299,6 +305,11 @@ body div#page div#footer {
   border-top: 1px solid #b8b8ae;
   text-align: center;
   font-size: 1.3rem;
+}
+body div#page div#footer div#footerText {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 @media screen and (min-width: 600px) {
   html {
@@ -324,5 +335,8 @@ body div#page div#footer {
   }
   body div#page div#bioColumnRight {
     margin-left: 17.708333333333332%;
+  }
+  body div#page div#workWrapper {
+    margin-top: 18rem;
   }
 }

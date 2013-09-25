@@ -3,7 +3,7 @@
 	<div id="nocturneWrapper">
 		<h1><a href="<?php echo home_url(); ?>">nocturne</a></h1>
 		<h3>Coffee, Cola, Code</h3>
-		<p> These two best buddies from IIT Madras have worked 
+		<p class="largeContent"> These two best buddies from IIT Madras have worked 
 			together on their varied interests for over 4 years 
 			now - music, theatre and of course, code. Both Engineering 
 			Physics graduates with a passion for the arts, they 
@@ -58,6 +58,12 @@
 			He is an avid musician, and of course, he also loves 
 			video games.
 		</p>
+	</div>
+
+	<div id="workWrapper">
+		<h3>
+			Check out our work below
+		</h3>
 	</div>
 	
 <?php get_footer(); ?>
