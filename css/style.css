@@ -241,8 +241,8 @@ body div#page div.bioColumn div.imgWrapper {
   margin: 0 1.0416666666666665%;
   margin-left: 9.374999999999998%;
   padding: 0.5rem;
+  padding: 0;
   margin-bottom: 0.6rem;
-  border: 10px solid #1a1a21;
   border-radius: 100%;
 }
 body div#page div.bioColumn div.imgWrapper:before,
@@ -265,6 +265,7 @@ body div#page div.bioColumn div.imgWrapper img.biopic {
   width: 100%;
   margin: 0;
   padding: 0;
+  border: 10px solid #1a1a21;
   border-radius: 100%;
   background: rgba(255, 255, 255, 0.1);
 }
