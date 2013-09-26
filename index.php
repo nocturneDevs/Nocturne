@@ -64,6 +64,31 @@
 		<h3>
 			Check out our work below
 		</h3>
+
+		<div class="projectWrapper">
+			<div class="projectImageWrapper"></div>
+			<h2>Project 1</h2>
+			<p class="content">This is a brief description of project 1.</p>
+		</div>
+
+		<div class="projectWrapper">
+			<div class="projectImageWrapper"></div>
+			<h2>Project 2</h2>
+			<p class="content">This is a brief description of project 2.</p>
+		</div>
+
+		<div class="projectWrapper">
+			<div class="projectImageWrapper"></div>
+			<h2>Project 3</h2>
+			<p class="content">This is a brief description of project 3.</p>
+		</div>
+
+		<div class="projectWrapper">
+			<div class="projectImageWrapper"></div>
+			<h2>Project 4</h2>
+			<p class="content">This is a brief description of project 4.</p>
+		</div>
+
 	</div>
 	
 <?php get_footer(); ?>
