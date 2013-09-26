@@ -44,10 +44,34 @@ body {
 
 			div.projectWrapper {
 				width:50%;
+
+				h2 {
+					color:@textColor1;
+					transition:color 0.25s linear;
+					-webkit-transition:color 0.25s ease-out;
+				}
+
+				p {
+					color:@nocturneGray;
+					transition:color 0.25s linear;
+					-webkit-transition:color 0.25s ease-out;
+				}
+
+				&:hover {
+					h2 {
+						color:@nocturneGreen;
+					}
+
+					p {
+						color:@textColor1;
+					}
+				}
+
 			}
 		}
 
 		div#footer {
+			font-size:1.3rem;
 		}
 	}
 }

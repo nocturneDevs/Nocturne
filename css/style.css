@@ -302,6 +302,8 @@ body div#page div#workWrapper div.projectWrapper {
   height: 36rem;
   float: left;
   padding-top: 10%;
+  padding-left: 1.2rem;
+  padding-right: 1.2rem;
 }
 body div#page div#workWrapper div.projectWrapper:before,
 body div#page div#workWrapper div.projectWrapper:after {
@@ -328,21 +330,11 @@ body div#page div#workWrapper div.projectWrapper div.projectImageWrapper {
   background: rgba(234, 234, 255, 0.1);
 }
 body div#page div#workWrapper div.projectWrapper h2 {
-  color: #777777;
-  transition: color 0.25s linear;
-  -webkit-transition: color 0.25s ease-out;
+  color: #dadad0;
 }
 body div#page div#workWrapper div.projectWrapper p {
   color: #777777;
   text-align: center;
-  transition: color 0.25s linear;
-  -webkit-transition: color 0.25s ease-out;
-}
-body div#page div#workWrapper div.projectWrapper:hover h2 {
-  color: #339a80;
-}
-body div#page div#workWrapper div.projectWrapper:hover p {
-  color: #dadad0;
 }
 body div#page div#footer {
   display: inline;
@@ -354,7 +346,7 @@ body div#page div#footer {
   padding-bottom: 2.4rem;
   border-top: 1px solid #b8b8ae;
   text-align: center;
-  font-size: 1.3rem;
+  font-size: 1.6rem;
 }
 body div#page div#footer div#footerText {
   display: block;
@@ -391,5 +383,24 @@ body div#page div#footer div#footerText {
   }
   body div#page div#workWrapper div.projectWrapper {
     width: 50%;
+  }
+  body div#page div#workWrapper div.projectWrapper h2 {
+    color: #dadad0;
+    transition: color 0.25s linear;
+    -webkit-transition: color 0.25s ease-out;
+  }
+  body div#page div#workWrapper div.projectWrapper p {
+    color: #777777;
+    transition: color 0.25s linear;
+    -webkit-transition: color 0.25s ease-out;
+  }
+  body div#page div#workWrapper div.projectWrapper:hover h2 {
+    color: #339a80;
+  }
+  body div#page div#workWrapper div.projectWrapper:hover p {
+    color: #dadad0;
+  }
+  body div#page div#footer {
+    font-size: 1.3rem;
   }
 }
