@@ -160,7 +160,6 @@ body {
 			div.projectWrapper {
 				width:100%;
 				height:36rem;
-
 				float:left;
 				.clearfix();
 				padding-top:10%;
@@ -168,10 +167,14 @@ body {
 				padding-right:1.2rem;
 
 				div.projectImageWrapper {
-					width:75%;
-					height:50%;
-					.center();
-					background:rgba(234,234,255,0.1);
+				height:60%;
+					img {
+						.center();
+						border:5px solid @black;
+						max-height:100%;
+						max-width:80%;
+						//background:rgba(234,234,255,0.1);
+					}
 				}
 
 				h2 {
