@@ -337,8 +337,13 @@ body div#page div#workWrapper div.projectWrapper h2 {
   color: #dadad0;
 }
 body div#page div#workWrapper div.projectWrapper p {
-  color: #777777;
+  clear: both;
+  font-family: 'Merriweather Sans', sans-serif;
+  font-weight: 300;
   text-align: center;
+  font-size: 1.6rem;
+  line-height: 2.6rem;
+  color: #777777;
 }
 body div#page div#footer {
   display: inline;

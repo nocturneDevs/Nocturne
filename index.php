@@ -76,31 +76,61 @@
 		</a>
 
 		<a href="http://sonify.net" target="_blank">
-		<div class="projectWrapper">
-			<div class="projectImageWrapper">
-				<img src="<?php echo get_template_directory_uri(); ?>/resources/images/sonify.png"/>
+			<div class="projectWrapper">
+				<div class="projectImageWrapper">
+					<img src="<?php echo get_template_directory_uri(); ?>/resources/images/sonify.png"/>
+				</div>
+				<h2>Sonify</h2>
+				<p class="content">Backend for online tool to turn pictures to music</p>
 			</div>
-			<h2>Sonify</h2>
-			<p class="content">Backend for online tool to turn pictures to music</p>
-		</div>
+		</a>
 		
 		<a href="http://www.thoughtarium.com" target="_blank">
-		<div class="projectWrapper">
-			<div class="projectImageWrapper">
-				<img src="<?php echo get_template_directory_uri(); ?>/resources/images/thoughtarium.png"/>
+			<div class="projectWrapper">
+				<div class="projectImageWrapper">
+					<img src="<?php echo get_template_directory_uri(); ?>/resources/images/thoughtarium.png"/>
+				</div>
+				<h2>Thoughtarium</h2>
+				<p class="content">Sanjay's homegrown personal blog</p>
 			</div>
-			<h2>Thoughtarium</h2>
-			<p class="content">Sanjay's homegrown personal blog</p>
-		</div>
+		</a>
 
 		<a href="http://files.nyu.edu/hm992/public/WebPhysics/balls.html" target="_blank">
-		<div class="projectWrapper">
-			<div class="projectImageWrapper">
-				<img src="<?php echo get_template_directory_uri(); ?>/resources/images/physics.png"/>
+			<div class="projectWrapper">
+				<div class="projectImageWrapper">
+					<img src="<?php echo get_template_directory_uri(); ?>/resources/images/physics.png"/>
+				</div>
+				<h2>Physical Space</h2>
+				<p class="content">A group of JavaScript physics simulations</p>
 			</div>
-			<h2>Physical Space</h2>
-			<p class="content">A group of JavaScript physics simulations</p>
-		</div>
+		</a>
+	
+
+<?php 
+	$args = array( 
+					'post_type' => 'project', 
+					'posts_per_page' => 10,
+
+
+				);
+	$loop = new WP_Query( $args );
+	while ( $loop->have_posts() ) : $loop->the_post();
+
+		// $custompost = get_post_custom(get_the_ID());
+
+		echo '<div class="projectWrapper">';
+			echo '<div class="projectImageWrapper"><img src="'.get_template_directory_uri().'/resources/images/physics.png"/></div>';
+		
+			echo '<h2>';
+				the_title();
+			echo '</h2>';
+
+			the_excerpt();
+		
+		echo '</div>';
+		
+	endwhile;
+?>
 
 	</div>
 	
