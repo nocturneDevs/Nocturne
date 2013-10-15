@@ -62,49 +62,8 @@
 
 	<div id="workWrapper">
 		<h3>
-			Check out our work below
+			Portfolio
 		</h3>
-
-		<a href="http://www.yourboutique.in" target="_blank">
-			<div class="projectWrapper">
-				<div class="projectImageWrapper">
-					<img src="<?php echo get_template_directory_uri(); ?>/resources/images/yb2.png"/>
-				</div>
-				<h2>YourBoutique</h2>
-				<p class="content">E-Commerce website for a collective of clothing boutiques</p>
-			</div>
-		</a>
-
-		<a href="http://sonify.net" target="_blank">
-			<div class="projectWrapper">
-				<div class="projectImageWrapper">
-					<img src="<?php echo get_template_directory_uri(); ?>/resources/images/sonify.png"/>
-				</div>
-				<h2>Sonify</h2>
-				<p class="content">Backend for online tool to turn pictures to music</p>
-			</div>
-		</a>
-		
-		<a href="http://www.thoughtarium.com" target="_blank">
-			<div class="projectWrapper">
-				<div class="projectImageWrapper">
-					<img src="<?php echo get_template_directory_uri(); ?>/resources/images/thoughtarium.png"/>
-				</div>
-				<h2>Thoughtarium</h2>
-				<p class="content">Sanjay's homegrown personal blog</p>
-			</div>
-		</a>
-
-		<a href="http://files.nyu.edu/hm992/public/WebPhysics/balls.html" target="_blank">
-			<div class="projectWrapper">
-				<div class="projectImageWrapper">
-					<img src="<?php echo get_template_directory_uri(); ?>/resources/images/physics.png"/>
-				</div>
-				<h2>Physical Space</h2>
-				<p class="content">A group of JavaScript physics simulations</p>
-			</div>
-		</a>
-	
 
 	<?php 
 		$args = array( 
