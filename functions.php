@@ -51,6 +51,10 @@ function updated_project_messages( $messages ) {
 add_filter( 'post_updated_messages', 'updated_project_messages' );
 
 
+// Add support to Projects for a featured image
+add_theme_support('post-thumbnails',array('project'));
+
+
 // Fire our meta box setup function on the post editor screen.
 add_action( 'load-post.php', 'noc_project_meta_boxes_setup' );
 add_action( 'load-post-new.php', 'noc_project_meta_boxes_setup' );

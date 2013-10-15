@@ -106,31 +106,27 @@
 		</a>
 	
 
-<?php 
-	$args = array( 
-					'post_type' => 'project', 
-					'posts_per_page' => 10,
+	<?php 
+		$args = array( 
+						'post_type' => 'project', 
+						'posts_per_page' => 10,
 
 
-				);
-	$loop = new WP_Query( $args );
-	while ( $loop->have_posts() ) : $loop->the_post();
+					);
+		$loop = new WP_Query( $args );
+		while ( $loop->have_posts() ) : $loop->the_post();
 
 		// $custompost = get_post_custom(get_the_ID());
-
-		echo '<div class="projectWrapper">';
-			echo '<div class="projectImageWrapper"><img src="'.get_template_directory_uri().'/resources/images/physics.png"/></div>';
+	?>
+		<div class="projectWrapper">
+			<div class="projectImageWrapper"><?php the_post_thumbnail() ?></div>
+			<h2><?php the_title(); ?></h2>
+			<?php the_excerpt(); ?>
+		</div>
 		
-			echo '<h2>';
-				the_title();
-			echo '</h2>';
-
-			the_excerpt();
-		
-		echo '</div>';
-		
-	endwhile;
-?>
+	<?php	
+		endwhile;
+	?>
 
 	</div>
 	
