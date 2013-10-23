@@ -114,6 +114,7 @@ video {
   vertical-align: baseline;
 }
 html {
+  min-height: 100%;
   margin: 0;
   font-size: 50%;
 }
@@ -361,6 +362,39 @@ body div#page div#footer div#footerText {
   display: block;
   margin-left: auto;
   margin-right: auto;
+}
+body div#page div.single-project-wrapper {
+  display: inline;
+  float: left;
+  width: 97.91666666666666%;
+  margin: 0 1.0416666666666665%;
+  margin-top: 4.8rem;
+}
+body div#page div.single-project-wrapper h1.single-project-title {
+  font-size: 4.8rem;
+  margin-top: 2.4rem;
+  margin-bottom: 2.4rem;
+}
+body div#page div.single-project-wrapper div.single-project-img-wrapper {
+  width: auto;
+  max-width: 48rem;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2.4rem;
+  margin-bottom: 2.4rem;
+}
+body div#page div.single-project-wrapper div.single-project-img-wrapper img {
+  border: 10px solid #1a1a21;
+  width: 100%;
+}
+body div#page div.single-project-wrapper p {
+  clear: both;
+  font-family: 'Merriweather Sans', sans-serif;
+  font-weight: 300;
+  text-align: justify;
+  font-size: 1.6rem;
+  line-height: 2.6rem;
 }
 @media screen and (min-width: 600px) {
   html {

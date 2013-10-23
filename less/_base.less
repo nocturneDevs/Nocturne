@@ -3,7 +3,8 @@
 @import "_normalize.less";
 
 html {
-	margin:0;
+	min-height:100%;
+	margin:0;	
 	font-size:50%;
 }
 
@@ -22,7 +23,7 @@ body {
 		color-stop(0.56, rgb(37,37,47)),
 		color-stop(0.78, rgb(21,21,26))
 	);
-
+	
 	color:@textColor1;
 
 	div#page {
@@ -205,6 +206,45 @@ body {
 
 			div#footerText {
 				.center();
+			}
+		}
+
+		// SINGLE PROJECT STYLES
+		div.single-project-wrapper {
+
+			.column(12);
+			margin-top:4.8rem;
+
+			h1.single-project-title {
+				font-size:4.8rem;
+				margin-top:2.4rem;
+				margin-bottom:2.4rem;
+			}
+
+			div.single-project-img-wrapper {
+
+				width:auto;
+				max-width:48rem;
+				.center;
+
+				margin-top:2.4rem;
+				margin-bottom:2.4rem;
+
+				
+
+				img {
+					border:10px solid @black;
+					width:100%;
+				}
+			}
+
+			p {
+				clear:both;
+				font-family: 'Merriweather Sans', sans-serif;
+				font-weight:300;
+				text-align:justify;
+				font-size:1.6rem;
+				line-height:2.6rem;
 			}
 		}
 	}
