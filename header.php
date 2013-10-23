@@ -40,3 +40,8 @@
 
 <body>
 	<div id="page">
+		<div id="header">
+			<a id="header-link" href="<?php echo home_url(); ?>">
+				nocturne
+			</a>
+		</div>
